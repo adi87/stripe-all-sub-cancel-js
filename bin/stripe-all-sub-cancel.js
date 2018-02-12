@@ -3,7 +3,7 @@ var Promise, program, logger, runScript;
 
 Promise = require('bluebird');
 
-logger = require('./libs/logger');
+logger = require('../lib/logger');
 
 program = require('commander');
 
