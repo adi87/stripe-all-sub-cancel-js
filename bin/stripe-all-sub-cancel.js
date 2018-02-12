@@ -2,13 +2,13 @@ var Promise, program, logger, runScript;
 
 Promise = require('bluebird');
 
-logger = require('./lib/logger');
+logger = require('./libs/logger');
 
 program = require('commander');
 
 co = require('co');
 
-runScript = require('./lib/index.js').run;
+runScript = require('../lib/index.js').run;
 
 if (require.main === module) {
     program
