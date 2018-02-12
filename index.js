@@ -123,7 +123,7 @@ if (require.main === module) {
             return run(program);
         };
     })(this))).then(function(result) {
-        logger.info("finished running", result);
+        logger.info("Finished running", result);
         return process.exit(0);
     })["catch"](function(err) {
         logger.error(err);
