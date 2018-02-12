@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var Promise, program, logger, runScript;
 
 Promise = require('bluebird');
