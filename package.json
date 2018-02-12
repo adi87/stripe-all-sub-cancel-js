@@ -1,0 +1,27 @@
+{
+  "name": "stripe-all-sub-cancel",
+  "version": "1.0.0",
+  "description": "Script to cancel all subscriptions in a stripe account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/adi87/stripe-all-sub-cancel-js.git",
+  "keywords": [
+    "stripe"
+  ],
+  "author": "Aditya Patil (aditya.patil87@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adi87/stripe-all-sub-cancel-js/issues"
+  },
+  "homepage": "https://github.com/adi87/stripe-all-sub-cancel-js#readme",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "co": "4.6.0",
+    "commander": "2.14.1",
+    "moment": "2.20.1",
+    "stripe": "4.10.0",
+    "winston": "2.4.0"
+  }
+}
