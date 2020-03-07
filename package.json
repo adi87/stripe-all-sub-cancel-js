@@ -1,6 +1,6 @@
 {
   "name": "stripe-all-sub-cancel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Script to cancel all subscriptions in a stripe account",
   "main": "index.js",
   "scripts": {
