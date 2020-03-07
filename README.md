@@ -16,6 +16,7 @@ npm install -g git+https://github.com/adi87/stripe-all-sub-cancel-js
 - `--secret-key [secretKey]`: The Secret Key for the parent Stripe account to cancel the subscriptions for
 - `--dry-run`: If passed, the execution will be a dry run where no subscription cancellation will actually take place. It will just run through the list of customers and their active subscriptions. Recommended for a first run to verify correct setup.
 - `--batch-size [batchSize]`: The number of Stripe customers to fetch per batch (defaults to 10)
+- `--immediate-cancel`: If passed subscriptions will be cancelled immediately instead of the end of the subscription billing period
 
 ##### Sample command
 

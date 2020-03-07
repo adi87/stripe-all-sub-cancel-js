@@ -10,13 +10,16 @@
   "keywords": [
     "stripe"
   ],
+  "engines": {
+    "node": ">10.0"
+  },
   "author": "Aditya Patil (aditya.patil87@gmail.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adi87/stripe-all-sub-cancel-js/issues"
   },
   "bin": {
-      "stripe-all-sub-cancel": "bin/stripe-all-sub-cancel.js"
+    "stripe-all-sub-cancel": "bin/stripe-all-sub-cancel.js"
   },
   "homepage": "https://github.com/adi87/stripe-all-sub-cancel-js#readme",
   "dependencies": {
@@ -24,7 +27,7 @@
     "co": "4.6.0",
     "commander": "2.14.1",
     "moment": "2.20.1",
-    "stripe": "4.10.0",
+    "stripe": "^8.29.0",
     "winston": "2.4.0"
   }
 }
