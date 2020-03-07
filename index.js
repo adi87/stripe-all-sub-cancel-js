@@ -15,6 +15,7 @@ if (require.main === module) {
     .version('0.1.0')
     .option('--secret-key [secretKey]', "The secret key for the Stripe account with the subscriptions to cancel")
     .option('-b, --batch-size [batchSize]', "The number of stripe customers to fetch per batch (defaults to 10)")
+    .option('--immediate-cancel', 'If passed the subscription will be cancelled immediately')
     .option('--dry-run', "If provided, no actual cancellations take place")
     .parse(process.argv);
 
